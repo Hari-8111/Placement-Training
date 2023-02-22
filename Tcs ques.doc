@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int v,w;
+int x,y;
+clrscr();
+scanf("%d",&v);
+scanf("%d",&w);
+if((w<=2)&&(w%2!=0)&&(w<v))
+printf("Invalid Input");
+else
+{
+y=(4*v-w)/2;
+x=v-y;
+}
+printf("%d\n%d",x,y);
+getch();
+}
+
